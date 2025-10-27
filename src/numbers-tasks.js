@@ -572,10 +572,9 @@ function getRandomInteger(/* min, max */) {
  * @example:
  * 3, 4 => 5
  */
-function getHypotenuse(/* a, b */) {
-  throw new Error('Not implemented');
+function getHypotenuse(a, b) {
+  return Math.hypot(a, b);
 }
-
 /**
  * Returns count of odd numbers from zero to the resulting number.
  * The resulting number is taken into account.
